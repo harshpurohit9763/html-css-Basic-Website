@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+
+body {
+  background-color: #232830;
+}
+
+.topbar ul li:first-child {
+  color: white;
+  /* flex: 0 0 auto; */
+  font-size: 24px;
+  font-weight: 400;
+  margin-right: 55%;
+  align-content: start;
+}
+
+.topbar ul li {
+  position: relative;
+  display: inline-flex;
+  text-decoration: none;
+  list-style: none;
+  color: aliceblue;
+  inline-size: auto;
+  padding: 16px;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 200;
+  align-content: end;
+
+  /* flex: 1 1 auto; */
+}
+
+.logo {
+  display: flex;
+  align-self: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.moto ul li:first-child {
+  color: #ff7575;
+  font-family: "Recursive";
+  font-size: 41px;
+  font-weight: 400;
+  font-style: italic;
+  list-style: none;
+}
+.moto ul li {
+  display: flex;
+  align-self: center;
+  margin: auto;
+  justify-content: center;
+  color: white;
+  list-style: none;
+  font-family: "Poppins";
+}
+
+.options ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  vertical-align: top;
+  margin: auto;
+  font-size: 18px;
+  font-weight: 400;
+  color: #909090;
+  font-style: italic;
+  align-self: center;
+}
+
+.options ul li {
+  margin-right: 15px;
+  vertical-align: top;
+}
+
+.main .tile {
+  justify-content: last baseline;
+  background: white;
+  border-radius: 22px;
+  border: 1px #252930 solid;
+}
+.main .tile ul {
+  padding: 15px;
+  list-style: none;
+  margin: auto;
+}
+
+.main .tile ul li {
+  list-style: none;
+  display: flex;
+
+  justify-content: left;
+
+  text-align: left;
+}
+
+.main {
+  display: grid;
+  /* justify-content: space-around; */
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 15px 20px;
+  width: 250px;
+  margin: auto;
+}
+
+.decore {
+  padding-top: 50px;
+}
+
+.bottompage ul {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  list-style: none;
+  padding-bottom: 50px;
+}
+
+.bottompage ul li {
+  padding-right: 15px;
+  color: #909090;
+}
+
+.bottompage ul li:nth-child(3) {
+  padding-right: 15px;
+  color: #ff7575;
+}
+
+.bottompart {
+  display: flex;
+  justify-content: space-between;
+  height: min-content;
+}
+
+.bottompart ul {
+  display: flex;
+  height: min-content;
+  list-style: none;
+  font-family: "Poppins";
+  color: white;
+}
+
+.bottompart ul:first-child li:nth-child(2) {
+  background-color: #4699e0;
+  border-radius: 10px;
+
+  padding: 0px;
+  margin-left: 5px;
+  height: min-content;
+}
+
+.bottompart ul:nth-child(2) {
+  background-color: #4699e0;
+
+  border-radius: 10px;
+  height: min-content;
+  padding: 0px;
+  margin: 0px;
+}
